@@ -1,6 +1,7 @@
 import { ContactService } from './../../services/contact.service';
 import { Component, OnInit } from "@angular/core";
 import { IContact } from "src/app/models/IContact";
+import { IGroup } from 'src/app/models/IGroup';
 
 @Component({
   selector: 'app-contact-manager',
@@ -25,8 +26,9 @@ export class ContactManagerComponent implements OnInit {
      this.loading = false;
 
      console.log(this.contacts);
-    },
-  );
+
+
+    });
 
   }
 }

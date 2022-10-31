@@ -11,29 +11,26 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-     <form>
+     <form (submit)="submitUpdate()">
       <div class="mb-2">
-          <input type="text" class="form-control" placeholder="Name" type="text">
+          <input [(ngModel)]="contact.name" [value]="contact.name" name="name"  required="true" type="text" class="form-control" placeholder="Name" type="text">
       </div>
       <div class="mb-2">
-          <input type="text" class="form-control" placeholder="Photo Url" type="text">
+          <input [(ngModel)]="contact.photo" [value]="contact.photo"  name="photo" required="true"  type="text" class="form-control" placeholder="Photo Url" type="text">
       </div>
       <div class="mb-2">
-          <input type="text" class="form-control" placeholder="Email" type="email">
+          <input [(ngModel)]="contact.email" [value]="contact.email"   name="email" required="true"  type="text" class="form-control" placeholder="Email" type="email">
       </div>
       <div class="mb-2">
-          <input type="text" class="form-control" placeholder="Mobile" type="number">
+          <input [(ngModel)]="contact.mobile" [value]="contact.mobile"  name="mobile" required="true"  type="text" class="form-control" placeholder="Mobile" type="number">
       </div>
       <div class="mb-2">
-        <input type="text" class="form-control" placeholder="Company" type="text">
+        <input [(ngModel)]="contact.company" [value]="contact.company"  name="company" required="true"  type="text" class="form-control" placeholder="Company" type="text">
       </div>
       <div class="mb-2">
-        <input type="text" class="form-control" placeholder="Title" type="text">
+        <input [(ngModel)]="contact.title" [value]="contact.title"  name="title" required="true"  type="text" class="form-control" placeholder="Title" type="text">
       </div>
       <div class="mb-2">
-       <select class="form-control">
-          <option value="">Select a group </option>
-       </select>
       </div>
        <div class="mb-2">
         <input class="btn btn-info" value="Update" type="submit">
@@ -42,7 +39,9 @@
      </form>
     </div>
     <div class="col-sm-4">
-      <img src="https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png" class="contact-img" alt="">
+      <img [src]="contact.photo" class="contact-img" alt="">
     </div>
   </div>
 </div>
+
+

@@ -11,6 +11,7 @@ import { ViewContactComponent } from './Componets/view-contact/view-contact.comp
 import { SpinnerComponent } from './Componets/spinner/spinner.component';
 import { PageNotFoundComponent } from './Componets/page-not-found/page-not-found.component';
 import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
