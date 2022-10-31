@@ -1,0 +1,83 @@
+{"contacts":
+[{
+"id": "1",
+"name": "brad Gibson",
+"company": "Amazon",
+"email": "bradGib@gmail.com",
+"title": "economic development",
+"mobile": "8945454545",
+"photo": "https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/avat-01-512.png",
+"groupid":"3"
+},
+{
+  "id": "2",
+  "name": "Robert Gibson",
+  "company": "Amazon",
+  "email": "Rob@gmail.com",
+  "title": "business",
+  "mobile": "1234567454",
+  "photo": "https://cdn-icons-png.flaticon.com/512/147/147133.png",
+  "groupid":"3"
+  },
+  {
+    "id": "3",
+    "name": "Marcos Perez",
+    "company": "Rose Company",
+    "email": "MacP@gmail.com",
+    "title": "business",
+    "mobile": "3513331431",
+    "photo": "https://cdn4.iconfinder.com/data/icons/avatars-63/33/male_2-1024.png",
+    "groupid":"2"
+    },
+    {
+      "id": "4",
+      "name": "Maria huck",
+      "company": "RSD Technologies",
+      "email": "MacP@gmail.com",
+      "title": "Software Engineer",
+      "mobile": "465651431",
+      "photo": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png",
+      "groupid":"1"
+      },
+      {
+        "id": "5",
+        "name": "Ana Patricia",
+        "company": "ServicePH",
+        "email": "APatricia@gmail.com",
+        "title": "Service Manager",
+        "mobile": "465651431",
+        "photo": "https://gkspolishing.com/wp-content/uploads/Office-Customer-Female-Light-icon.png",
+        "groupid":"5"
+        },
+        {
+          "id": "6",
+          "name": "Marina Troy",
+          "company": "Amazon",
+          "email": "MTroy@gmail.com",
+          "title": "president (CEO of Amazon)",
+          "mobile": "231213132",
+          "photo": "https://uniqueoffice.systems/wp-content/uploads/2019/10/female.png",
+          "groupid":"3"
+        }],
+"groups":[
+  {
+  "id":"1",
+  "name":"Colleague"
+  },
+  {
+  "id":"2",
+  "name":"Friend"
+  },
+  {
+  "id":"3",
+  "name":"Work"
+  },
+  {
+  "id":"4",
+  "name":"Family"
+  },
+  {
+    "id":"5",
+    "name":"Community"
+  }
+]}
