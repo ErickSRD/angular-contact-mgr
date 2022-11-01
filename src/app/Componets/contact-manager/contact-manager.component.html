@@ -74,7 +74,7 @@
               <a class="btn btn-primary" routerLink="/contacts/edit/{{contact.id}}">
                 <i class="fa fa-pen"></i>
               </a>
-              <button class=" btn btn-danger my-1"  >
+              <button class=" btn btn-danger my-1" (click)="clickDeleteContact(contact.id)"  >
                 <i class="fa fa-trash-alt"></i>
               </button>
             </div>
